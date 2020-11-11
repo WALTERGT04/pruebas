@@ -8,7 +8,7 @@ final class LoginTest extends TestCase
     {
         $this->assertEquals(
             true,
-            Login::logearse('admin','admin')
+            Login::logearse('admin2','admin')
         );
     }
 }
